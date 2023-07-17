@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{054F6B2A-B487-4B90-8F96-2B451781D025}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{054F6B2A-B487-4B90-8F96-2B451781D025}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Music" ID="{97A97F0B-2683-4C4D-98DC-5F38543BB002}" ShortID="190957951">
+					<ChildrenList>
+						<Event Name="Music1" ID="{F37392A4-E495-460B-B366-2F43A434147D}">
+							<ChildrenList>
+								<Action Name="" ID="{DD5A5B67-FEA1-4E9B-8E30-1CB23BFE71AE}" ShortID="516491241">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GameJam1" ID="{93F4BDB8-8953-4CE3-8E07-ABCE7279A5E0}" WorkUnitID="{03F02A52-BD50-4244-A6D8-10FCF63DED0E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Sfx" ID="{31A4D62A-69E4-4153-89C6-0DDC53A3AF02}" ShortID="147489792">
+					<ChildrenList>
+						<Event Name="Explosion" ID="{4CD6113D-E2E7-4098-B82F-64197DF408C4}">
+							<ChildrenList>
+								<Action Name="" ID="{5BD8D2BA-1DB6-4E2C-98FD-ED32B9ABD977}" ShortID="294229608">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Explosion" ID="{16603D19-735D-44FE-A7D8-1FBF3E56B665}" WorkUnitID="{6F7806F2-3CC2-48C9-8F3C-EDF83634C9BD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

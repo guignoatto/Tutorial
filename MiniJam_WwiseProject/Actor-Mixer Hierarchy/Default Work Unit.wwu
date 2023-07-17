@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6F7806F2-3CC2-48C9-8F3C-EDF83634C9BD}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{6F7806F2-3CC2-48C9-8F3C-EDF83634C9BD}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Explosion8bit" ID="{91C6F978-7C4D-406B-B7E3-A5048890342F}" ShortID="734588466">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{95452237-B7A9-4D97-9952-C30A63BF706F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{838E440E-B7CD-4776-B98C-4F57A70ABA39}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Explosion8bit" ID="{BF846FE2-6D46-4EC4-96CC-F2816F52E991}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.033923871793968"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.0731611210978347"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.19822985325391"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Explosion8bit.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="343514418"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Explosion8bit" ID="{BF846FE2-6D46-4EC4-96CC-F2816F52E991}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Explosion" ID="{16603D19-735D-44FE-A7D8-1FBF3E56B665}" ShortID="799183181">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>37</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{C58F7676-04DD-4B91-8774-02E40043F750}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="556"/>
+											<Property Name="Min" Type="Real64" Value="-152"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{95452237-B7A9-4D97-9952-C30A63BF706F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{838E440E-B7CD-4776-B98C-4F57A70ABA39}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Explosion" ID="{EC4C7A45-72CB-4314-8821-F83735B87801}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.0938411288522317"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.376217616580311"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Explosion.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="365674893"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Explosion" ID="{EC4C7A45-72CB-4314-8821-F83735B87801}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

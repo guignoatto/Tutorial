@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	13776098	Explosion			\Default Work Unit\Sfx\Explosion	
+	1730564819	Music1			\Default Work Unit\Music\Music1	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	365674893	Explosion	E:\MIniJam\MiniJam\MiniJam_WwiseProject\.cache\Mac\SFX\Explosion_D71E10D2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Explosion		33278
+	838935070	GameJam1	E:\MIniJam\MiniJam\MiniJam_WwiseProject\.cache\Mac\SFX\GameJam1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\GameJam1\GameJam1		23006040
+

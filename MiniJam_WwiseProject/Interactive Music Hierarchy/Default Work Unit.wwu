@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{03F02A52-BD50-4244-A6D8-10FCF63DED0E}" SchemaVersion="110">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{03F02A52-BD50-4244-A6D8-10FCF63DED0E}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSegment Name="GameJam1" ID="{93F4BDB8-8953-4CE3-8E07-ABCE7279A5E0}" ShortID="767706743">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="130419.183673469"/>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{95452237-B7A9-4D97-9952-C30A63BF706F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{838E440E-B7CD-4776-B98C-4F57A70ABA39}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="GameJam1" ID="{E92446ED-6085-4EA0-A57E-4CC7AC7A614B}" ShortID="793614837">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{838E440E-B7CD-4776-B98C-4F57A70ABA39}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GameJam1" ID="{87BD72C1-AE8B-4249-A36D-B7FD05677F48}">
+									<Language>SFX</Language>
+									<AudioFile>GameJam1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="838935070"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{0E1C2091-C1C3-42FA-86A0-739E3410851A}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists>
+								<ObjectList Name="Sequences">
+									<Reference>
+										<Local>
+											<MusicTrackSequence Name="" ID="{B39DD3DF-95C5-49DE-B0EE-DDD7558FF809}">
+												<ObjectLists>
+													<ObjectList Name="Clips">
+														<Reference>
+															<Local>
+																<MusicClip Name="GameJam1" ID="{F89F7D54-8911-45F0-9ADE-4C32C665E1C8}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="130419.183673469"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="GameJam1" ID="{87BD72C1-AE8B-4249-A36D-B7FD05677F48}"/>
+																</MusicClip>
+															</Local>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MusicTrackSequence>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicTrack>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Cues">
+							<Reference>
+								<Local>
+									<MusicCue Name="Entry Cue" ID="{AA23EA85-D207-4A4F-A82A-C07626090378}"/>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MusicCue Name="Exit Cue" ID="{92CCD00A-CB22-446B-A637-E84CE71823C7}">
+										<PropertyList>
+											<Property Name="CueType" Type="int16" Value="1"/>
+											<Property Name="TimeMs" Type="Real64" Value="130419.183673469"/>
+										</PropertyList>
+									</MusicCue>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</MusicSegment>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>
